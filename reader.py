@@ -17,5 +17,3 @@ pytesseract.pytesseract.tesseract_cmd = config.tesseract_install_path
 if __name__ == "__main__":
     img_str = pytesseract.image_to_string(Image.open('src/img/salmon.jpg'))
     print(img_str)
-
-"""test sublime git"""
